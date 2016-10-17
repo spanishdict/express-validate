@@ -1,0 +1,32 @@
+{
+  "name": "express-validate",
+  "version": "0.0.0",
+  "description": "Query param and body validator middleware for Express",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spanishdict/express-validate.git"
+  },
+  "keywords": [],
+  "author": "Daiwei Lu <daiweilu123@gmail.com> (http://daiwei.lu/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spanishdict/express-validate/issues"
+  },
+  "homepage": "https://github.com/spanishdict/express-validate#readme",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "validate.js": "0.10.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "express": "4.14.0",
+    "mocha": "3.1.2",
+    "supertest": "2.0.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive test"
+  }
+}
